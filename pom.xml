@@ -17,6 +17,12 @@
         <java.version>17</java.version>
     </properties>
     <dependencies>
+         <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-compiler-plugin -->
+        <dependency>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-compiler-plugin</artifactId>
+          <version>3.10.1</version>
+        </dependency>
         <!-- Add Log4j2 Dependency -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
