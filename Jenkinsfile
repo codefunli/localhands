@@ -12,6 +12,7 @@ pipeline {
 	
 	tools {
 		jdk 'JAVA_HOME'
+		maven 'maven'
 	}
 	//ws(LocalHands/LocalHand/localhand) {
 		//echo "Change workspace to localhand"
