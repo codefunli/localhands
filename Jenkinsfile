@@ -1,5 +1,5 @@
 pipeline {
-	agent any
+	agent {label 'linux'}
 
 	//environment {
 		//mavenHome = tool 'jenkins-maven'
@@ -9,9 +9,10 @@ pipeline {
       //checkout scm
     //}
 
-	//tools {
-		//jdk 'java-17'
-	//}
+	
+	tools {
+		jdk 'jdk-17-oracle-x64'
+	}
 	//ws(LocalHands/LocalHand/localhand) {
 		//echo "Change workspace to localhand"
 	//}
