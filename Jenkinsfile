@@ -11,7 +11,7 @@ pipeline {
 
 	
 	tools {
-		jdk 'jdk-17-oracle-x64'
+		jdk 'JAVA_HOME'
 	}
 	//ws(LocalHands/LocalHand/localhand) {
 		//echo "Change workspace to localhand"
