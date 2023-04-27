@@ -26,7 +26,7 @@ pipeline {
 			//def p = 'cd /var/lib/jenkins/workspace/localhand_pipeline/LocalHand/localhand'.execute() | 'mvn clean install -DskipTests'.execute()
 			//p.waitFor()
 			    //sh 'cd /var/lib/jenkins/workspace/localhand_pipeline/LocalHand/localhand'
-				sh 'mvn install -DskipTests'
+				sh 'mvn clean install -DskipTests'
 			}
 		}
 
