@@ -1,5 +1,5 @@
 pipeline {
-	agent {label 'linux'}
+	agent any
 
 	//environment {
 		//mavenHome = tool 'jenkins-maven'
