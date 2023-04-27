@@ -39,7 +39,8 @@ pipeline {
 
 		stage('Deploy') {
 			steps {
-			    sh 'mvn jar:jar deploy:deploy'
+			    sh '''cd /var/lib/jenkins/workspace/localhand_pipeline/target
+			    /usr/lib/jvm/jdk-17-oracle-x64/java -jar localhand-0.0.1-SNAPSHOT.jar'''
 			}
 		}
 	}
